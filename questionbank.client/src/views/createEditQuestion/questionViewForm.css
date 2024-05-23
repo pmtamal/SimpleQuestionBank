@@ -1,0 +1,42 @@
+.container {
+  padding: 20px;
+}
+
+.description-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 200px;
+  overflow: auto;
+}
+
+.comment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comment-buttons button {
+  margin-left: 10px;
+}
+
+.edit-comment,
+.add-comment {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.edit-comment-buttons,
+.add-comment button {
+  margin-left: 10px;
+}
+
+.edit-comment-buttons button {
+  margin-left: 5px;
+}
+
+/* .card {
+  margin: 20px 0;
+  padding: 20px;
+} */

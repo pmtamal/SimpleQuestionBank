@@ -1,0 +1,66 @@
+.container {
+  padding: 20px 20px;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.p-tabview .p-tabview-panels {
+  padding: 0.5rem;
+}
+.p-dialog .p-dialog-footer {
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+.p-menu .p-submenu-header {
+  padding: 0px;
+}
+.p-icon-field.p-icon-field-right {
+  width: 100%;
+}
+
+.comment-action-btn > span {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.comment-action-btn > span:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+
+.relative {
+  position: relative;
+}
+
+.relative img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+  cursor: pointer;
+}
+
+.relative .absolute {
+  display: none;
+}
+
+.relative:hover .absolute {
+  display: flex;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.text-white {
+  color: white;
+}
+
+

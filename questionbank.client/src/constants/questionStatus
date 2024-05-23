@@ -1,0 +1,8 @@
+export const questionStatus = [
+  { name: "All", status: "0" },
+  { name: "Draft", status: "1" },
+  { name: "In Review", status: "2" },
+  { name: "In Approval", status: "3" },
+  { name: "In Revision", status: "4" },
+  { name: "Merged", status: "5" },
+];

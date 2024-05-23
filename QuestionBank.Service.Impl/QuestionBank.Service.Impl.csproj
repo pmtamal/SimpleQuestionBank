@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuestionBank.Pessistence.Entity\QuestionBank.Persistence.Entity.csproj" />
+    <ProjectReference Include="..\QuestionBank.Repository.Interface\QuestionBank.Repository.Interface.csproj" />
+    <ProjectReference Include="..\QuestionBank.Service.Interface\QuestionBank.Service.Interface.csproj" />
+    <ProjectReference Include="..\QuestionBank.Utility\QuestionBank.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Enumeration\" />
+  </ItemGroup>
+
+</Project>
