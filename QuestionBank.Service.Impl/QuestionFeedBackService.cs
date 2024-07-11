@@ -138,7 +138,7 @@ namespace QuestionBank.Service.Impl
             if (questionFeedBack.FeedBackType == QuestionFeedBackType.MergeByApprover)
             {
                 question.status = QuestionStatus.Finalized;
-                _questionFeedBackRepository.CompleteFeedbackCycle(questionFeedBack.QuestionId);
+                await _questionFeedBackRepository.CompleteFeedbackCycle(questionFeedBack.QuestionId);
             }
             else if(questionFeedBack.FeedBackType == QuestionFeedBackType.SendForRevision)
             {
